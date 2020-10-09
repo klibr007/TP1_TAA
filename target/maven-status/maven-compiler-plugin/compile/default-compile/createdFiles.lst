@@ -1,0 +1,12 @@
+fr/istic/m2/TP1_TAA/User.class
+fr/istic/m2/TP1_TAA/Tag.class
+fr/istic/m2/TP1_TAA/Board.class
+fr/istic/m2/TP1_TAA/Card.class
+dao/Kanban.class
+dao/SectionDao.class
+jpa/EntityManagerHelper.class
+dao/TagDao.class
+dao/UserDao.class
+dao/CardDao.class
+fr/istic/m2/TP1_TAA/Section.class
+dao/BoardDao.class
