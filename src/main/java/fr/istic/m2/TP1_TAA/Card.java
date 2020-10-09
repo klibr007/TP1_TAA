@@ -1,5 +1,6 @@
 package fr.istic.m2.TP1_TAA;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -12,7 +13,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Card {
+public class Card implements Serializable{
 	
 	private Long id;
 	private String label;

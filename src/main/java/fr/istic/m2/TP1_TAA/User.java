@@ -1,12 +1,14 @@
 package fr.istic.m2.TP1_TAA;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
 @Entity
-public class User {
+public class User implements Serializable{
 
 	private Long id;
 	private String name;

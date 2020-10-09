@@ -25,7 +25,7 @@ public class Kanban {
     	User u1 = new User();
     	u1.setName("Jean");
     	User u2 = new User();
-    	u2.setName("Paul");
+    	u2.setName("Paulo");
     	User u3 = new User();
     	u3.setName("Pierre");
     	User u4 = new User();
