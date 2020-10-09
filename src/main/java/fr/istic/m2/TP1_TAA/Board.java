@@ -42,7 +42,7 @@ public class Board {
 	}
 
 
-	@OneToMany(mappedBy = "board", cascade = CascadeType.PERSIST)
+	@OneToMany(mappedBy = "board", cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
 	public List<Section> getSections() {
 		return sections;
 	}

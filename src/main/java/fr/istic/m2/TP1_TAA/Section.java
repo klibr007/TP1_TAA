@@ -46,7 +46,7 @@ public class Section {
 	}
 
 
-	@OneToMany(mappedBy="section", cascade = CascadeType.PERSIST)
+	@OneToMany(mappedBy="section", cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
 	public List<Card> getCards() {
 		return cards;
 	}
